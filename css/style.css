@@ -76,16 +76,21 @@ li{
 	color: black;
 }
 
+/* ======================================================================== */
+/* Jump to content */
+/* ======================================================================== */
 
-.focus-only{
-	color: #ffffff
+.focus-only {
+	pointer-events: none;
+	 cursor: default;
+	color:white;
 }
-
-.focus-only:focus {
+   
+.focus-only:focus { 
+	pointer-events: all;
 	color: #003cff;
-	outline: 1px solid black; 
+	outline: 1px solid black;
 }
-
 
 
 .current{
