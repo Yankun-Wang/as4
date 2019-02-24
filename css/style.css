@@ -8,6 +8,7 @@ h1{
 	font-size: 4.5rem;
 	line-height: 5rem;
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
 }
   
 h2 {
@@ -87,9 +88,9 @@ li{
 
 
 .current{
-	text-transform:uppercase;
-	color: orange;
-	text-decoration-line: underline
+	text-transform:uppercase bold;
+	color: rgb(48, 48, 48);
+	text-decoration-line: underline 2px solid black
 }
 
 .section {
@@ -195,8 +196,9 @@ li{
   /* Add a color to the active/current link */
 .topnav a.current {
 	text-transform:uppercase;
-	color: #b68c70;
-	text-decoration-line: underline
+	font-weight: bold;
+	color: #4e4e4e;
+	border-bottom: 3px solid black;
 }
 
 .nav_logo {
