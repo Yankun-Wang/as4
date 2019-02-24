@@ -158,7 +158,7 @@ li{
 
 .footer {
 	position: relative;
-	color: #888888;
+	color: #000000;
 	z-index: 50;
 }
 
@@ -260,6 +260,7 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+	margin-bottom: 100px;
 }
 
 /* ======================================================================== */
